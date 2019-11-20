@@ -1,0 +1,59 @@
+.genius {
+  border: 30px solid #000000;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+}
+
+.genius-actions {
+  width: 250px;
+  height: 250px;
+  background-color: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.genius-button {
+  width: 215px;
+  height: 215px;
+  cursor: pointer;
+}
+
+.genius-button:hover, .hover {
+  filter: brightness(150%);
+}
+
+.genius-button:first-child {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.genius-button:nth-last-child(3) {
+  margin-right: 20px;
+}
+
+.red {
+  background-color: #da2d2d;
+}
+.green {
+  background-color: #2ECC40;
+}
+
+.blue {
+  background-color: #537ec5;
+}
+
+.yellow {
+  background-color: #f6da63;
+}
