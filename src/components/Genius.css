@@ -24,6 +24,19 @@
   color: #ffffff;
 }
 
+.button-play {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.level-label {
+  font-family: cursive;
+  font-size: 19px;
+}
+
 .genius-button {
   width: 215px;
   height: 215px;

@@ -25,8 +25,8 @@ class Genius extends React.Component {
         <div className={`genius-button blue ${current === 2 ? 'hover' : ''}`} onClick={() => this.clickHandle(2)}></div>
         <div className={`genius-button yellow ${current === 3 ? 'hover' : ''}`} onClick={() => this.clickHandle(3)}></div>
         <div className="genius-actions">
-          {level === 0 && <button onClick={incrementSequence}>play</button>}
-          {level > 0 && <div>nivel {level}</div>}
+          {level === 0 && <button className="button-play" onClick={incrementSequence}>play</button>}
+          {level > 0 && <div className="level-label">nível: {level}</div>}
         </div>
       </div>
     )
